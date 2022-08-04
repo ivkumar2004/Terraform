@@ -1,9 +1,3 @@
-# provider "aws" {
-#     region = "us-west-2"
-#     access_key = "AKIA344QC75H3S7FRH4S"
-#     secret_key = "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"
-# }
-
 resource "aws_vpc" "vpc_main" {
   cidr_block       = "10.0.0.0/16"
   tags = {
