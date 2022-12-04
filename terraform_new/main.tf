@@ -44,7 +44,7 @@ resource "aws_route_table_association" "route_association_main" {
 
 resource "aws_key_pair" "key_pair_main" {
   key_name   = "aws_key"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCiiDkeR+5pbDzZUw+nPcBSEYxaZlfxVSz8ge9Fx392o+TX9YoH2AT28br3iUCDxZUmecyhi2ufPPMeQlzuoFVTVGT9Fb+Qdn3kXaKjcz3uaES/Bi30DB6Fi5IxZBLQGco2YTIdDfL4nscXWiX379xx9lNo2MEUngMdRV/s1CTy5w7983ImBYPShq8wR2FzBvSV8V1gFbpzVrBOMZuF5aSSSga4pZk5y/d8haiYZDaLbWy7qeDU4OyKvYSZfyff+nI/YmlmS0K2DrcS8YqUnXkEjTmwF39tatsARw0wMX1S/n8ZbAW1pWuTcF1bhpQv0e2J8ea946wm+gddQR5LyquV ubuntu@ip-172-31-28-156"
+  public_key = "<public key>"
 }
 
 resource "aws_instance" "instance_main" {
